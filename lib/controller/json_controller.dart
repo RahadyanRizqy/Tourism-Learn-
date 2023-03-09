@@ -19,9 +19,9 @@
 
 //   });
 
-  // const Map<String, dynamic> jsonPage = {
-  //   "name" : "Ranu Bedali",
-  //   "url" : "https://cdn2.tstatic.net/tribunnewswiki/foto/bank/images/Ranu-Bedali.jpg",
-  //   "listDetails" : [{"heading" : "Profil singkat", "article" : "Ranu Bedali adalah salah satu obyek wisata alam yang terdapat di Kabupaten Lumajang. Ranu Bedali berada di ketinggian 700 meter di atas permukaan laut. Luas dari Ranu Bedali sekitar 25 hektar dan kedalamannya 28 meter. Ranu Bedali merupakan rangkaian dari tiga danau yakni Ranu Bedali, Ranu Klakah dan Ranu Pakis."}]
-  // };
+//   const Map<String, dynamic> jsonPage = {
+//     "name" : "Ranu Bedali",
+//     "url" : "https://cdn2.tstatic.net/tribunnewswiki/foto/bank/images/Ranu-Bedali.jpg",
+//     "listDetails" : [{"heading" : "Profil singkat", "article" : "Ranu Bedali adalah salah satu obyek wisata alam yang terdapat di Kabupaten Lumajang. Ranu Bedali berada di ketinggian 700 meter di atas permukaan laut. Luas dari Ranu Bedali sekitar 25 hektar dan kedalamannya 28 meter. Ranu Bedali merupakan rangkaian dari tiga danau yakni Ranu Bedali, Ranu Klakah dan Ranu Pakis."}]
+//   };
 // }

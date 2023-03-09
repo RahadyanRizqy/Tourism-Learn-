@@ -20,10 +20,11 @@ import 'page_structure.dart';
 
 
 class ListArticle extends Content {
-  ListArticle({required super.url, required super.titleName, required super.listDetails});
+  ListArticle({required super.id, required super.url, required super.titleName, required super.listDetails});
 
   static final List<Content> contents = [
     Content(
+      id: 1,
       url: "https://cdn1-production-images-kly.akamaized.net/hfHgS2SEZdD3ASTa1bGlvKKvAbE=/640x360/smart/filters:quality(75):strip_icc():format(jpeg)/kly-media-production/medias/933707/original/051644500_1437558393-20150722-Gunung-berstatus-waspada-Indonesia-Gunung-Semeru.jpg",
       titleName: 'Gunung Semeru', 
       listDetails: <Details>[
@@ -33,6 +34,7 @@ class ListArticle extends Content {
       ]),
     
     Content(
+      id: 2,
       url: "https://www.tempatwisata.pro/media/uploads/3088/0e29c42518e720c0dacb83c112df9458.jpg",
       titleName: 'Ranu Pane', 
       listDetails: <Details>[
@@ -43,6 +45,7 @@ class ListArticle extends Content {
       ]),
     
     Content(
+      id: 3,
       url: "https://medicaltourism.id/wp-content/uploads/2021/04/coban-sewu-3.jpg", 
       titleName: "Coban Sewu", 
       listDetails: <Details>[
@@ -52,6 +55,7 @@ class ListArticle extends Content {
       ]),
 
     Content(
+      id: 4,
       url: "https://asset.kompas.com/crops/YEMbKChtubAi0QEDmbhrPPM6XBg=/0x0:780x520/750x500/data/photo/2019/03/05/3643045560.jpg", 
       titleName: "B29 Lumajang Senduro", 
       listDetails: <Details>[

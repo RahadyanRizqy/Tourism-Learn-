@@ -26,6 +26,6 @@ void main() {
   test('Test FetchID', () {
     Content article = ListArticle.fetchID(0);
     expect(article.titleName, isNotNull);
-    expect(article.listDetails, isMap);
+    expect(article.listDetails, isList);
   });
 }
