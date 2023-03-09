@@ -22,7 +22,7 @@ class Content {
       _$ContentFromJson(json);
 
   static Future<List<Content>> fetchAll() async {
-    var uri = Endpoint.uri('/locations', queryParameters: {});
+    var uri = Endpoint.uri('/api_example.txt', queryParameters: {});
 
     final resp = await http.get(uri);
 
@@ -37,7 +37,7 @@ class Content {
   }
 
   static Future<Content> fetchByID(int id) async {
-    var uri = Endpoint.uri('/locations/$id', queryParameters: {});
+    var uri = Endpoint.uri('/api_example.txt/$id', queryParameters: {});
 
     final resp = await http.get(uri);
 
