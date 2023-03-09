@@ -9,8 +9,8 @@ part of 'page_structure.dart';
 Content _$ContentFromJson(Map<String, dynamic> json) {
     return Content(
       id: json['id'] as int,
-      url: json['url'] as String,
       titleName: json['titleName'] as String,
+      url: json['url'] as String,
       listDetails: (json['listDetails'] as List<dynamic>?)
           ?.map((e) => Details.fromJson(e as Map<String, dynamic>))
           .toList(),

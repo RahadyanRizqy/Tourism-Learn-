@@ -1,7 +1,4 @@
-import 'package:flutter/src/widgets/placeholder.dart';
 import 'details.dart';
-import 'package:flutter/src/widgets/framework.dart';
-
 import 'page_structure.dart';
 
 // class FirstArticle extends Content {
@@ -19,14 +16,12 @@ import 'page_structure.dart';
 // }
 
 
-class ListArticle extends Content {
-  ListArticle({required super.id, required super.url, required super.titleName, required super.listDetails});
-
+mixin ListArticle implements Content {
   static final List<Content> contents = [
     Content(
       id: 1,
-      url: "https://cdn1-production-images-kly.akamaized.net/hfHgS2SEZdD3ASTa1bGlvKKvAbE=/640x360/smart/filters:quality(75):strip_icc():format(jpeg)/kly-media-production/medias/933707/original/051644500_1437558393-20150722-Gunung-berstatus-waspada-Indonesia-Gunung-Semeru.jpg",
-      titleName: 'Gunung Semeru', 
+      titleName: 'Gunung Semeru',
+      url: "https://cdn1-production-images-kly.akamaized.net/hfHgS2SEZdD3ASTa1bGlvKKvAbE=/640x360/smart/filters:quality(75):strip_icc():format(jpeg)/kly-media-production/medias/933707/original/051644500_1437558393-20150722-Gunung-berstatus-waspada-Indonesia-Gunung-Semeru.jpg", 
       listDetails: <Details>[
         Details(heading: 'Profil singkat', article: 'Gunung Semeru atau Gunung Meru adalah sebuah gunung berapi kerucut di Jawa Timur, Indonesia. Gunung Semeru merupakan gunung tertinggi di Pulau Jawa, dengan puncaknya Mahameru, 3.676 meter dari permukaan laut (mdpl).'),
 
@@ -35,8 +30,8 @@ class ListArticle extends Content {
     
     Content(
       id: 2,
-      url: "https://www.tempatwisata.pro/media/uploads/3088/0e29c42518e720c0dacb83c112df9458.jpg",
       titleName: 'Ranu Pane', 
+      url: "https://www.tempatwisata.pro/media/uploads/3088/0e29c42518e720c0dacb83c112df9458.jpg",
       listDetails: <Details>[
         Details(heading: 'Profil singkat', article: 'Ranupani merupakan daerah paling populer bagi pendaki gunung semeru. Berada dalam ketinggian 2100 mdpl, Desa ranupani adalah desa terakhir pendakian gunung semeru. Setiap hari dengan mobil, jeep, dan motor, begitu banyak wisatawan yang menuju ke desa ranupani, baik dari arah malang maupun dari arah lumajang. Desa ranupani terletak dengan batas sebagai berikut: Sebelah utara adalah desa ngadas, kabupaten malang.'),
         
@@ -46,8 +41,8 @@ class ListArticle extends Content {
     
     Content(
       id: 3,
-      url: "https://medicaltourism.id/wp-content/uploads/2021/04/coban-sewu-3.jpg", 
       titleName: "Coban Sewu", 
+      url: "https://medicaltourism.id/wp-content/uploads/2021/04/coban-sewu-3.jpg", 
       listDetails: <Details>[
         Details(heading: 'Profil singkat', article: 'Coban Sewu adalah sebuah air terjun berketinggian sekitar 120 meter. Air terjun ini berbatasan dengan Kabupaten Lumajang dan Kabupaten Malang, Provinsi Jawa Timur. Air Terjun Tumpak Sewu memiliki aliran air yang menyerupai tirai sehingga termasuk dalam tipe air terjun Tiered.'),
 
@@ -56,8 +51,8 @@ class ListArticle extends Content {
 
     Content(
       id: 4,
-      url: "https://asset.kompas.com/crops/YEMbKChtubAi0QEDmbhrPPM6XBg=/0x0:780x520/750x500/data/photo/2019/03/05/3643045560.jpg", 
       titleName: "B29 Lumajang Senduro", 
+      url: "https://asset.kompas.com/crops/YEMbKChtubAi0QEDmbhrPPM6XBg=/0x0:780x520/750x500/data/photo/2019/03/05/3643045560.jpg", 
       listDetails: <Details>[
         Details(heading: 'Profil singkat', article: 'Puncak B.29 merupakan puncak tertinggi di kawasan lautan pasir Bromo dengan ketinggian + 2.900 mdpl. Terletak di Desa Argosari Kecamatan Senduro Kabupaten Lumajang.Tepatnya disisi tenggara Gunung Bromo dengan pemandangannya yang indah dan udaranya yang sangat sejuk serta panorama hamparan tanaman khas dataran tinggi berupa bawang pre, kubis kentang dan wortel, serta buah strawberry sehingga menjadikan kawasan obyek wisata ini sangat menawan dan luar biasa.'),
 
